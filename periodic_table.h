@@ -128,4 +128,30 @@ const static periodic_table_element_t helium = {
         .phase = GAS,
 };
 
+const static periodic_table_element_t lithium = {
+        .atomic_number = 3,
+
+        .symbol = "Li",
+        .name = "Lithium",
+
+        .group = 1,
+        .period = 2,
+
+        .atomic_weight = 6.94,
+
+        .protons = 3,
+        .neutrons = 4,
+        .electrons = 3,
+
+        .melting_point = 453.69,
+        .boiling_point = 1560,
+
+        .density = 0.534,
+
+        .electronegativity = 0.98,
+
+        .block = S_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
