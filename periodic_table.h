@@ -206,4 +206,30 @@ const static periodic_table_element_t boron = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t carbon = {
+        .atomic_number = 6,
+
+        .symbol = "C",
+        .name = "Carbon",
+
+        .group = 14,
+        .period = 2,
+
+        .atomic_weight = 12.011,
+
+        .protons = 6,
+        .neutrons = 6,
+        .electrons = 6,
+
+        .melting_point = 4000,
+        .boiling_point = 4300,
+
+        .density = 2.267,
+
+        .electronegativity = 2.55,
+
+        .block = P_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
