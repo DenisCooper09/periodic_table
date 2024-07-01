@@ -232,4 +232,30 @@ const static periodic_table_element_t carbon = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t nitrogen = {
+        .atomic_number = 7,
+
+        .symbol = "N",
+        .name = "Nitrogen",
+
+        .group = 15,
+        .period = 2,
+
+        .atomic_weight = 14.007,
+
+        .protons = 7,
+        .neutrons = 7,
+        .electrons = 7,
+
+        .melting_point = 63.15,
+        .boiling_point = 77.36,
+
+        .density = 0.0012506,
+
+        .electronegativity = 3.04,
+
+        .block = P_BLOCK,
+        .phase = GAS,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
