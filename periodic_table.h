@@ -154,4 +154,30 @@ const static periodic_table_element_t lithium = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t beryllium = {
+        .atomic_number = 4,
+
+        .symbol = "Be",
+        .name = "Beryllium",
+
+        .group = 2,
+        .period = 2,
+
+        .atomic_weight = 9.0122,
+
+        .protons = 4,
+        .neutrons = 5,
+        .electrons = 4,
+
+        .melting_point = 1560,
+        .boiling_point = 2742,
+
+        .density = 1.85,
+
+        .electronegativity = 1.57,
+
+        .block = S_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
