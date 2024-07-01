@@ -414,4 +414,30 @@ const static periodic_table_element_t aluminium = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t silicon = {
+        .atomic_number = 14,
+
+        .symbol = "Si",
+        .name = "Silicon",
+
+        .group = 14,
+        .period = 3,
+
+        .atomic_weight = 28.085,
+
+        .protons = 14,
+        .neutrons = 14,
+        .electrons = 14,
+
+        .melting_point = 1687,
+        .boiling_point = 3538,
+
+        .density = 2.3290,
+
+        .electronegativity = 1.9,
+
+        .block = P_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
