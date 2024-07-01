@@ -310,4 +310,30 @@ const static periodic_table_element_t fluorine = {
         .phase = GAS,
 };
 
+const static periodic_table_element_t neon = {
+        .atomic_number = 10,
+
+        .symbol = "Ne",
+        .name = "Neon",
+
+        .group = 18,
+        .period = 2,
+
+        .atomic_weight = 20.180,
+
+        .protons = 10,
+        .neutrons = 10,
+        .electrons = 10,
+
+        .melting_point = 24.56,
+        .boiling_point = 27.07,
+
+        .density = 0.0009002,
+
+        .electronegativity = DBL_MAX,
+
+        .block = P_BLOCK,
+        .phase = GAS,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
