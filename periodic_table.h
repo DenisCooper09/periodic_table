@@ -518,4 +518,30 @@ const static periodic_table_element_t chlorine = {
         .phase = GAS,
 };
 
+const static periodic_table_element_t argon = {
+        .atomic_number = 18,
+
+        .symbol = "Ar",
+        .name = "Argon",
+
+        .group = 18,
+        .period = 3,
+
+        .atomic_weight = 39.95,
+
+        .protons = 18,
+        .neutrons = 22,
+        .electrons = 18,
+
+        .melting_point = 83.80,
+        .boiling_point = 87.30,
+
+        .density = 0.001784,
+
+        .electronegativity = DBL_MAX,
+
+        .block = P_BLOCK,
+        .phase = GAS,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
