@@ -74,4 +74,30 @@ typedef struct {
     periodic_table_phase_t phase;
 } periodic_table_element_t;
 
+const static periodic_table_element_t hydrogen = {
+        .atomic_number = 1,
+
+        .symbol = "H",
+        .name = "Hydrogen",
+
+        .group = 1,
+        .period = 1,
+
+        .atomic_weight = 1.0080,
+
+        .protons = 1,
+        .neutrons = 0,
+        .electrons = 1,
+
+        .melting_point = 14.01,
+        .boiling_point = 20.28,
+
+        .density = 0.00008988,
+
+        .electronegativity = 2.20,
+
+        .block = S_BLOCK,
+        .phase = GAS,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
