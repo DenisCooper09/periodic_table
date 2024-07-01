@@ -466,4 +466,30 @@ const static periodic_table_element_t phosphorus = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t sulfur = {
+        .atomic_number = 16,
+
+        .symbol = "S",
+        .name = "Sulfur",
+
+        .group = 16,
+        .period = 3,
+
+        .atomic_weight = 32.06,
+
+        .protons = 16,
+        .neutrons = 16,
+        .electrons = 16,
+
+        .melting_point = 388.36,
+        .boiling_point = 717.87,
+
+        .density = 2.07,
+
+        .electronegativity = 2.58,
+
+        .block = P_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
