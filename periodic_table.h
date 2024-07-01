@@ -284,4 +284,30 @@ const static periodic_table_element_t oxygen = {
         .phase = GAS,
 };
 
+const static periodic_table_element_t fluorine = {
+        .atomic_number = 9,
+
+        .symbol = "F",
+        .name = "Fluorine",
+
+        .group = 17,
+        .period = 2,
+
+        .atomic_weight = 18.998,
+
+        .protons = 9,
+        .neutrons = 10,
+        .electrons = 9,
+
+        .melting_point = 53.53,
+        .boiling_point = 85.03,
+
+        .density = 0.001696,
+
+        .electronegativity = 3.98,
+
+        .block = P_BLOCK,
+        .phase = GAS,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
