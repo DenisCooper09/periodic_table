@@ -752,4 +752,30 @@ const static periodic_table_element_t iron = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t cobalt = {
+        .atomic_number = 27,
+
+        .symbol = "Co",
+        .name = "Cobalt",
+
+        .group = 9,
+        .period = 4,
+
+        .atomic_weight = 58.933,
+
+        .protons = 27,
+        .neutrons = 32,
+        .electrons = 27,
+
+        .melting_point = 1768,
+        .boiling_point = 3200,
+
+        .density = 8.90,
+
+        .electronegativity = 1.88,
+
+        .block = D_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
