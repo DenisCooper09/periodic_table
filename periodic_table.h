@@ -388,4 +388,30 @@ const static periodic_table_element_t magnesium = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t aluminium = {
+        .atomic_number = 13,
+
+        .symbol = "Al",
+        .name = "Aluminium",
+
+        .group = 13,
+        .period = 3,
+
+        .atomic_weight = 26.982,
+
+        .protons = 13,
+        .neutrons = 14,
+        .electrons = 13,
+
+        .melting_point = 933.47,
+        .boiling_point = 2792,
+
+        .density = 2.70,
+
+        .electronegativity = 1.61,
+
+        .block = P_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
