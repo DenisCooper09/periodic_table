@@ -648,4 +648,30 @@ const static periodic_table_element_t titanium = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t vanadium = {
+        .atomic_number = 23,
+
+        .symbol = "V",
+        .name = "Vanadium",
+
+        .group = 5,
+        .period = 4,
+
+        .atomic_weight = 50.942,
+
+        .protons = 23,
+        .neutrons = 28,
+        .electrons = 23,
+
+        .melting_point = 2183,
+        .boiling_point = 3680,
+
+        .density = 6.11,
+
+        .electronegativity = 1.63,
+
+        .block = D_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
