@@ -492,4 +492,30 @@ const static periodic_table_element_t sulfur = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t chlorine = {
+        .atomic_number = 17,
+
+        .symbol = "Cl",
+        .name = "Chlorine",
+
+        .group = 17,
+        .period = 3,
+
+        .atomic_weight = 35.45,
+
+        .protons = 17,
+        .neutrons = 18,
+        .electrons = 17,
+
+        .melting_point = 171.6,
+        .boiling_point = 239.11,
+
+        .density = 0.0032,
+
+        .electronegativity = 3.16,
+
+        .block = P_BLOCK,
+        .phase = GAS,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
