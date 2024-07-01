@@ -544,4 +544,30 @@ const static periodic_table_element_t argon = {
         .phase = GAS,
 };
 
+const static periodic_table_element_t potassium = {
+        .atomic_number = 19,
+
+        .symbol = "K",
+        .name = "Potassium",
+
+        .group = 1,
+        .period = 4,
+
+        .atomic_weight = 39.098,
+
+        .protons = 19,
+        .neutrons = 20,
+        .electrons = 19,
+
+        .melting_point = 336.53,
+        .boiling_point = 1032,
+
+        .density = 0.89,
+
+        .electronegativity = 0.82,
+
+        .block = S_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
