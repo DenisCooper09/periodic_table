@@ -1,6 +1,8 @@
 #ifndef PERIODIC_TABLE_PERIODIC_TABLE_H
 #define PERIODIC_TABLE_PERIODIC_TABLE_H
 
+#include <float.h>
+
 /**
  * A block of the periodic table is a set of elements unified by the atomic orbitals their
  * valence electrons or vacancies lie in.
@@ -95,6 +97,32 @@ const static periodic_table_element_t hydrogen = {
         .density = 0.00008988,
 
         .electronegativity = 2.20,
+
+        .block = S_BLOCK,
+        .phase = GAS,
+};
+
+const static periodic_table_element_t helium = {
+        .atomic_number = 2,
+
+        .symbol = "He",
+        .name = "Helium",
+
+        .group = 18,
+        .period = 1,
+
+        .atomic_weight = 4.0026,
+
+        .protons = 2,
+        .neutrons = 2,
+        .electrons = 2,
+
+        .melting_point = DBL_MAX,
+        .boiling_point = 4.22,
+
+        .density = 0.0001785,
+
+        .electronegativity = DBL_MAX,
 
         .block = S_BLOCK,
         .phase = GAS,
