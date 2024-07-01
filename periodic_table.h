@@ -258,4 +258,30 @@ const static periodic_table_element_t nitrogen = {
         .phase = GAS,
 };
 
+const static periodic_table_element_t oxygen = {
+        .atomic_number = 8,
+
+        .symbol = "O",
+        .name = "Oxygen",
+
+        .group = 16,
+        .period = 2,
+
+        .atomic_weight = 15.999,
+
+        .protons = 8,
+        .neutrons = 8,
+        .electrons = 8,
+
+        .melting_point = 54.36,
+        .boiling_point = 90.20,
+
+        .density = 0.001429,
+
+        .electronegativity = 3.44,
+
+        .block = P_BLOCK,
+        .phase = GAS,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
