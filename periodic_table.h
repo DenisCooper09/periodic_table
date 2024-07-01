@@ -674,4 +674,30 @@ const static periodic_table_element_t vanadium = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t chromium = {
+        .atomic_number = 24,
+
+        .symbol = "Cr",
+        .name = "Chromium",
+
+        .group = 6,
+        .period = 4,
+
+        .atomic_weight = 51.996,
+
+        .protons = 24,
+        .neutrons = 28,
+        .electrons = 24,
+
+        .melting_point = 2180,
+        .boiling_point = 2944,
+
+        .density = 7.15,
+
+        .electronegativity = 1.66,
+
+        .block = D_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
