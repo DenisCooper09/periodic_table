@@ -362,4 +362,30 @@ const static periodic_table_element_t sodium = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t magnesium = {
+        .atomic_number = 12,
+
+        .symbol = "Mg",
+        .name = "Magnesium",
+
+        .group = 2,
+        .period = 3,
+
+        .atomic_weight = 24.305,
+
+        .protons = 12,
+        .neutrons = 12,
+        .electrons = 12,
+
+        .melting_point = 923,
+        .boiling_point = 1363,
+
+        .density = 1.738,
+
+        .electronegativity = 1.31,
+
+        .block = S_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
