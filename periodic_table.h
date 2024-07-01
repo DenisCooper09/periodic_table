@@ -700,4 +700,30 @@ const static periodic_table_element_t chromium = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t manganese = {
+        .atomic_number = 25,
+
+        .symbol = "Mn",
+        .name = "Manganese",
+
+        .group = 7,
+        .period = 4,
+
+        .atomic_weight = 54.938,
+
+        .protons = 25,
+        .neutrons = 30,
+        .electrons = 25,
+
+        .melting_point = 1519,
+        .boiling_point = 2334,
+
+        .density = 7.21,
+
+        .electronegativity = 1.55,
+
+        .block = D_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
