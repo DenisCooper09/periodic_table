@@ -440,4 +440,30 @@ const static periodic_table_element_t silicon = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t phosphorus = {
+        .atomic_number = 15,
+
+        .symbol = "P",
+        .name = "Phosphorus",
+
+        .group = 15,
+        .period = 3,
+
+        .atomic_weight = 30.974,
+
+        .protons = 15,
+        .neutrons = 16,
+        .electrons = 15,
+
+        .melting_point = 317.30,
+        .boiling_point = 550,
+
+        .density = 1.823,
+
+        .electronegativity = 2.19,
+
+        .block = P_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
