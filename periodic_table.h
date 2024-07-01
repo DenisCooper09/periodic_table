@@ -596,4 +596,30 @@ const static periodic_table_element_t calcium = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t scandium = {
+        .atomic_number = 21,
+
+        .symbol = "Sc",
+        .name = "Scandium",
+
+        .group = 3,
+        .period = 4,
+
+        .atomic_weight = 44.956,
+
+        .protons = 21,
+        .neutrons = 24,
+        .electrons = 21,
+
+        .melting_point = 1814,
+        .boiling_point = 3109,
+
+        .density = 2.985,
+
+        .electronegativity = 1.36,
+
+        .block = D_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
