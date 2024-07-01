@@ -570,4 +570,30 @@ const static periodic_table_element_t potassium = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t calcium = {
+        .atomic_number = 20,
+
+        .symbol = "Ca",
+        .name = "Calcium",
+
+        .group = 2,
+        .period = 4,
+
+        .atomic_weight = 40.078,
+
+        .protons = 20,
+        .neutrons = 20,
+        .electrons = 20,
+
+        .melting_point = 1115,
+        .boiling_point = 1757,
+
+        .density = 1.55,
+
+        .electronegativity = 1.00,
+
+        .block = S_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
