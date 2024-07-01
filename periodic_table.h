@@ -336,4 +336,30 @@ const static periodic_table_element_t neon = {
         .phase = GAS,
 };
 
+const static periodic_table_element_t sodium = {
+        .atomic_number = 11,
+
+        .symbol = "Na",
+        .name = "Sodium",
+
+        .group = 1,
+        .period = 3,
+
+        .atomic_weight = 22.990,
+
+        .protons = 11,
+        .neutrons = 12,
+        .electrons = 11,
+
+        .melting_point = 370.87,
+        .boiling_point = 1156,
+
+        .density = 0.968,
+
+        .electronegativity = 0.93,
+
+        .block = S_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
