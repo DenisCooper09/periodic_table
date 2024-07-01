@@ -622,4 +622,30 @@ const static periodic_table_element_t scandium = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t titanium = {
+        .atomic_number = 22,
+
+        .symbol = "Ti",
+        .name = "Titanium",
+
+        .group = 4,
+        .period = 4,
+
+        .atomic_weight = 47.867,
+
+        .protons = 22,
+        .neutrons = 26,
+        .electrons = 22,
+
+        .melting_point = 1941,
+        .boiling_point = 3560,
+
+        .density = 4.506,
+
+        .electronegativity = 1.54,
+
+        .block = D_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
