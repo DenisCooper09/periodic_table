@@ -180,4 +180,30 @@ const static periodic_table_element_t beryllium = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t boron = {
+        .atomic_number = 5,
+
+        .symbol = "B",
+        .name = "Boron",
+
+        .group = 13,
+        .period = 2,
+
+        .atomic_weight = 10.81,
+
+        .protons = 5,
+        .neutrons = 6,
+        .electrons = 5,
+
+        .melting_point = 2349,
+        .boiling_point = 4200,
+
+        .density = 2.34,
+
+        .electronegativity = 2.04,
+
+        .block = P_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
