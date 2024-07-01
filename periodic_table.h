@@ -726,4 +726,30 @@ const static periodic_table_element_t manganese = {
         .phase = SOLID,
 };
 
+const static periodic_table_element_t iron = {
+        .atomic_number = 26,
+
+        .symbol = "Fe",
+        .name = "Iron",
+
+        .group = 8,
+        .period = 4,
+
+        .atomic_weight = 55.845,
+
+        .protons = 26,
+        .neutrons = 30,
+        .electrons = 26,
+
+        .melting_point = 1811,
+        .boiling_point = 3134,
+
+        .density = 7.874,
+
+        .electronegativity = 1.83,
+
+        .block = D_BLOCK,
+        .phase = SOLID,
+};
+
 #endif /* PERIODIC_TABLE_PERIODIC_TABLE_H */
